@@ -1,39 +1,39 @@
 # creating a function
-# def log():
-#  print("I am info.")
+def log():
+ print("I am info.")
 
 # calling a function
-# log()
+log()
 
 # Parameters
-# def log_name(name):
-#  print("My name is " + name)
+def log_name(name):
+ print("My name is " + name)
 
-# log_name("Khan")
+log_name("Khan")
 
 
 # Default Parameter Value
-# def log_name(name = "Unknown"):
-#  print("My name is " + name)
+def log_name(name = "Unknown"):
+ print("My name is " + name)
 
-# log_name()
+log_name()
 
 # Return Values
-# def sum(a, b):
-#  return a + b
+def sum(a, b):
+ return a + b
 
-# z = sum(3, 4)
-# print(z)
-# print(sum(7, 6))
+z = sum(3, 4)
+print(z)
+print(sum(7, 6))
 
 # Scope
-# def squre(x):
-#  z = 99
-#  number = x * x
-#  print(number)
+def squre(x):
+ z = 99
+ number = x * x
+ print(number)
 
-# print(z)
-# squre(3)
+print(z)
+squre(3)
 
 
 
@@ -46,14 +46,14 @@ def get_username():
  name = input("What is you name? ")
  return name
 
-# u_name = get_username()
-# say_hi(u_name)
+u_name = get_username()
+say_hi(u_name)
 
 # get_GPA(percentage) => 3.2
 def get_GPA(percentage):
  return percentage/20 - 1
 
-# print(get_GPA(84))
+print(get_GPA(84))
 
 # SumOf_list([1, 2, 3]) => 6
 def sumOf_list(nums):
@@ -62,7 +62,7 @@ def sumOf_list(nums):
   total += num
  return total
 
-# print(sumOf_list([1, 2, 3, 4]))
+print(sumOf_list([1, 2, 3, 4]))
 
 # SquareOf_list([2, 4]) => [4, 16]
 def squareOf_list(nums):
@@ -72,7 +72,7 @@ def squareOf_list(nums):
   new_nums.append(x)
  return new_nums
 
-# print(squareOf_list([2, 4, 3]))
+print(squareOf_list([2, 4, 3]))
 
 # filter_list([1, 2, 3, 4]) => [2, 4]
 def filter_list(nums):

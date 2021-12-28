@@ -1,13 +1,13 @@
 import time
 
-# print(time.time())
-# print(time.asctime())
-# print(time.gmtime().tm_mday)
-# print(time.localtime().tm_hour)
+print(time.time())
+print(time.asctime())
+print(time.gmtime().tm_mday)
+print(time.localtime().tm_hour)
 
-# print("A")
-# time.sleep(5)
-# print("B")
+print("A")
+time.sleep(5)
+print("B")
 
 def loop_fun(r):
  nums = []
